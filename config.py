@@ -1,0 +1,1 @@
+URL = 'https://www.redhat.com/rhtapps/promo-rh024/?segment=0'
