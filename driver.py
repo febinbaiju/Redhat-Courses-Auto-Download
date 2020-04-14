@@ -5,7 +5,7 @@ import pyautogui
 from config import URL
 
 
-def fetch_and_download_raw(_id):
+def fetch_and_download_raw(_id, _filename):
     chrome_options = Options()
     chrome_options.add_argument("--user-data-dir=selenium")
     driver = webdriver.Chrome('./chromedriver', options=chrome_options)
@@ -21,6 +21,7 @@ def fetch_and_download_raw(_id):
     pyautogui.click(x=1200, y=153, clicks=1)
     time.sleep(3)
     pyautogui.click(x=1183, y=423, clicks=1)  # downloading the file
-    input()
+    from watch_file import watch_completion
+    watch_completion(_filename)
     driver.close()
 
