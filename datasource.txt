@@ -1,0 +1,253 @@
+<aside id="navigation" style="display: block;">
+        <div class="c100 small" id="totalProgress">
+          <span>2%</span>
+          <div class="slice">
+            <div class="bar" id="rbar" style="transform: rotate(7.2deg);"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="pop-up-container">
+          <a class="hidemenu"><span>Hide Pane</span></a>
+          <p class="hover"><span>Click here to hide the navigation pane</span></p>
+        </div>
+        <h2 class="expand">
+            Red Hat Enterprise Linux Technical Overview
+        </h2>
+        <span class="description">Red Hat Enterprise Linux Technical Overview (RH024) is a series of no-cost, on-demand, online videos that provide a technical introduction to Linux® for IT professionals. </span>
+        <!--
+        <ul class='inlinemenu'>
+          <li class='active' rel='overview'>Overview</li>
+          <li rel='content'>Content</li>
+        </ul>
+        <div class='playlist' id='overview' style='display:block'>
+          <h3 class='active'>Overview</h3>
+          <ul>
+            <li>
+              Introduction <button>Play</button>
+              <span class='info'>1 min</span>
+            </li>
+          </ul>
+        </div>
+        -->
+        <div class="playlist" id="content" style="display:block;">
+          <h3 class="active">Content</h3>
+          <ul>
+
+            <li id="0_6863hqz2" data-duration="229" class="active">
+                <span class="title expand">What is Linux, Open Source Software, and a Distrbution?</span>
+
+                <span class="description">In this video, we will discuss why Linux is important, what Open Source Software is, and how distrobutions, such as Red Hat Enterprise Linux, work.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="0">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">4</span> mins</li>
+                    <li class="progress playing"><span class="val">3</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_mp1s02d7" data-duration="482">
+                <span class="title expand">Introduction to the Shell</span>
+
+                <span class="description">In this video, we will discuss why Linux is important, what Open Source Software is, and how distrobutions, such as Red Hat Enterprise Linux, work.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="1">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">9</span> mins</li>
+                    <li class="progress"><span class="val">1</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_ohtf7fo0" data-duration="255">
+                <span class="title expand">Kernel and User Spaces</span>
+
+                <span class="description">In this video, we will discuss the purpose of the Linux kernel and userspace, and how to get information about and terminate running processes. </span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="2">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">5</span> mins</li>
+                    <li class="progress"><span class="val">1</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_ycb36ga1" data-duration="317">
+                <span class="title expand">Orientation to the Graphical User Interface</span>
+
+                <span class="description">In this video, we will discuss how the optional graphical user interface works and learn the basics of how to use the default GNOME 3 desktop environment</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="3">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">6</span> mins</li>
+                    <li class="progress"><span class="val">18</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_2vnp5ffy" data-duration="575">
+                <span class="title expand">File Management in Linux </span>
+
+                <span class="description">In this video, we will learn about why files are particularly important in Linux, how the operating system classifies files, how files are named on native file systems, and how applications differentiate types of data in regular files.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="4">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">10</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_7a8jv5f5" data-duration="333">
+                <span class="title expand">The File System Hierarchy</span>
+
+                <span class="description">In this video, we will learn about the Linux file system hierarchy: how directories are structured on the system, what data they contain, how data on different disks is accessed, and basic file management commands.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="5">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">6</span> mins</li>
+                    <li class="progress"><span class="val">4</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_738nitmv" data-duration="414">
+                <span class="title expand">Editing Files Using ViM</span>
+
+                <span class="description">In this video, we will quickly learn the basics of vim, a text editor which can be used from the terminal, and why it is an important tool for system administrators.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="6">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">7</span> mins</li>
+                    <li class="progress"><span class="val">2</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_weakasjq" data-duration="510">
+                <span class="title expand">Organizing Users and Groups</span>
+
+                <span class="description">In this video, we will investigate how users and user groups work in Linux, how user accounts are used, what the "superuser" is and how to become superuser, and see one way to add users to the system.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="7">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">9</span> mins</li>
+                    <li class="progress"><span class="val">10</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_xk7m88pn" data-duration="603">
+                <span class="title expand">File Permissions</span>
+
+                <span class="description">In this video, we will discuss how file permissions are used to control access to user data, and how to interpret and manage them.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="8">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">11</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_dxjvtnh4" data-duration="575">
+                <span class="title expand">Managing Software</span>
+
+                <span class="description">In this video, we will see how software packages are managed in Red Hat Enterprise Linux and how they are distributed to systems.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="9">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">10</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_jwva14py" data-duration="688">
+                <span class="title expand">Configuring Networking</span>
+
+                <span class="description">In this video, we will introduce basic tools and techniques to manage networking settings from the Linux command line.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="10">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">12</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_f36cg8nt" data-duration="409">
+                <span class="title expand">Controlling System Startup Processes</span>
+
+                <span class="description">In this video, we will discuss how programs are started at boot time in Linux, and learn how to use systemd with Systemctl in Red Hat Enterprise Linux 8 to control system daemons.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="11">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">7</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_8o0bklrb" data-duration="239">
+                <span class="title expand">Introduction to Containers</span>
+
+                <span class="description">In this video, we will take an introductory look at container and learn the basics of how they work in Red Hat Enterprise Linux 8.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="12">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">4</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_v1w1d94k" data-duration="362">
+                <span class="title expand">Overview of Cockpit</span>
+
+                <span class="description">In this video, we will look at the Cockpit Web Interface in Red Hat Enterprise Linux 8.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="13">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">7</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_df2j6dtd" data-duration="192">
+                <span class="title expand">Learning More about Red Hat Enterprise Linux 8</span>
+
+                <span class="description">In this video, we will look at some of the resources available to help you learn more about Linux.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="14">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">4</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+          </ul>
+
+          <ul class="bottomlinks">
+            <li class="survey"><a target="_blank" title="Survey opens in new tab or window" href="https://survey.ole.redhat.com/survey/?modality=tov&amp;course=rh024">Course Evaluation</a></li>
+          </ul>
+
+        </div>
+      </aside>
