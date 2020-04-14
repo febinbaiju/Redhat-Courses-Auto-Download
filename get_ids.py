@@ -11,7 +11,7 @@ doc = os.read(fd, int(os.path.getsize(datasource)))
 soup = BeautifulSoup(doc, parser)
 
 limit = 100
-find_li = soup.find_all('li', attrs={'id' : re.compile('1_[a-z0-9]+')})
+find_li = soup.find_all('li', attrs={'id' : re.compile('0_[a-z0-9]+')})
 total = len(find_li)
 counter = 0
 for element in find_li:

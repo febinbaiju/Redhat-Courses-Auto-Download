@@ -10,10 +10,11 @@
           <a class="hidemenu"><span>Hide Pane</span></a>
           <p class="hover"><span>Click here to hide the navigation pane</span></p>
         </div>
-        <h2>
-            Ansible Essentials: Simplicity in Automation Technical Overview (DO007)
+        <h2 class="expand">
+            Virtualization and Infrastructure Migration Technical Overview (RH018)
         </h2>
-
+        <span class="description">In this course, you will discover how to better manage your virtualizations assets, the benefits of open source virtualization, and the way to move traditional workloads from one virtualization provider to an open virtualization. The new graphical user interface included in the cloud management platform will help to easily define infrastructure mappings and create migration plans to confidently balance your workloads and reduce your expenditure in virtualization.
+</span>
         <!--
         <ul class='inlinemenu'>
           <li class='active' rel='overview'>Overview</li>
@@ -33,24 +34,24 @@
           <h3 class="active">Content</h3>
           <ul>
 
-            <li id="1_kqcm0fme" data-duration="98" class="active">
-                <span class="title expand">Ansible Essentials Introduction</span>
+            <li id="0_qpkc7o3g" data-duration="112" class="active">
+                <span class="title expand">Course Overview</span>
 
-                <span class="description">In this video, we will review the contents of this set of videos.</span>
+                <span class="description">In this video, we will provide an overview of the videos in this technical overview. </span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="0">Play</button>
                 </span>
                 <ul class="info">
                     <li class="duration"><span class="time">2</span> mins</li>
-                    <li class="progress playing"><span class="val">48</span>%</li>
+                    <li class="progress playing"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="1_dkaymths" data-duration="353">
-                <span class="title expand">What is Ansible and the Ansible Way</span>
+            <li id="0_vk43fnxz" data-duration="339">
+                <span class="title expand">Introduction to Virtualization</span>
 
-                <span class="description">In this video, we will discuss Ansible at a high level and what differentiates it from other tools.</span>
+                <span class="description">In this video, we will discuss what virtualization is, how it works, and why it is important to you.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="1">Play</button>
@@ -61,69 +62,83 @@
                 </ul>
             </li>
 
-            <li id="1_svvp9o64" data-duration="281">
-                <span class="title expand">How Ansible Works</span>
+            <li id="0_2w7oo8dx" data-duration="439">
+                <span class="title expand">Essentials of Infrastructure Migration</span>
 
-                <span class="description">In this video, we will walk through the Ansible automation engine by discussing each of its key components.</span>
+                <span class="description">In this video, we will discuss the pieces required for an Infrastructure Migration and the role of each one.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="2">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">5</span> mins</li>
+                    <li class="duration"><span class="time">8</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="1_5e1lfl43" data-duration="637">
-                <span class="title expand">Ad-Hoc Commands (and demonstration)</span>
+            <li id="0_4z7wgll7" data-duration="534">
+                <span class="title expand">The Role of Cloud Management Platform in Infrastructure Migration (Demonstration)</span>
 
-                <span class="description">In this video, we will examine common Ad-Hoc use cases and demonstrate those against a host in inventory.</span>
+                <span class="description">In this video, we will walk through the features and capabilities that CloudForms has, that make it the ideal candidate for InfraMigration.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="3">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">11</span> mins</li>
+                    <li class="duration"><span class="time">9</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="1_tx0g4esk" data-duration="1081">
-                <span class="title expand">Introduction to Playbooks (and demonstration)</span>
+            <li id="0_sfogzkf0" data-duration="667">
+                <span class="title expand">RHV and vSphere (Demonstration)</span>
 
-                <span class="description">In this video, we will discuss key playbook concepts and build upon our Ad-Hoc demonstration by creating a basic playbook.</span>
+                <span class="description">In this video, we will walk through the resources that vSphere manages (their structure, CPU/Memory, Network, Disks) and show the equivalent in RHV.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="4">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">19</span> mins</li>
+                    <li class="duration"><span class="time">12</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="1_ksjln2gp" data-duration="257">
-                <span class="title expand">Introduction to Roles (and demonstration)</span>
+            <li id="0_jbjf3whp" data-duration="520">
+                <span class="title expand">Cloud Management Platform Setup with CloudForms (Demonstration)</span>
 
-                <span class="description">In this video, we will introduce the Ansible concept of roles.</span>
+                <span class="description">In this video, we will demonstrate how you can easily connect CloudForms to vSphere and RHV and discover all the resources in an homogeneous way.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="5">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">5</span> mins</li>
+                    <li class="duration"><span class="time">9</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="1_qz10z11r" data-duration="186">
-                <span class="title expand">Creating the Roles Structure with Ansible-Galaxy (and demonstration)</span>
+            <li id="0_szpjgf8n" data-duration="592">
+                <span class="title expand">Open Virtualization with RHV (Demonstration)</span>
 
-                <span class="description">In this video, we will utilize the ansible-galaxy command-line options to create our role structure.</span>
+                <span class="description">In this video, we will walk through features in RHV that show the simplicity of its usage, highlighting its advantages.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="6">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">10</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="0_2jmn4l4k" data-duration="226">
+                <span class="title expand">Infrastructure Migration Architecture and Usage</span>
+
+                <span class="description">In this video, we will explain how infrastructure migration is designed, the pieces that comprise it and how it can be easily used.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="7">Play</button>
                 </span>
                 <ul class="info">
                     <li class="duration"><span class="time">4</span> mins</li>
@@ -131,24 +146,10 @@
                 </ul>
             </li>
 
-            <li id="1_so38zmmm" data-duration="864">
-                <span class="title expand">Breaking an Existing Playbook into a Role (and demonstration)</span>
+            <li id="0_01cn6rbh" data-duration="558">
+                <span class="title expand">Infrastructure Migration (Demonstration)</span>
 
-                <span class="description">In this video, we will utilize the playbook created in the Introduction to Playbooks chapter and move each component into the corresponding role structure.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="7">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">15</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="1_chah2mz8" data-duration="549">
-                <span class="title expand">Creating a New Role (and demonstration)</span>
-
-                <span class="description">In this video, we will use the same techniques in creating a new role as we did with the existing playbook.</span>
+                <span class="description">In this video, we will utilize CloudForms infrastructure migration capabilities to move VMs from vSphere to RHV in a structured scalable fashion.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="8">Play</button>
@@ -159,30 +160,16 @@
                 </ul>
             </li>
 
-            <li id="1_ua2ad065" data-duration="446">
-                <span class="title expand">Utilizing Roles in your Main Playbooks (and demonstration)</span>
+            <li id="0_sumosrhc" data-duration="196">
+                <span class="title expand">Virtualization and Infrastructure Migration Recap and Beyond</span>
 
-                <span class="description">In this video, we will bring the role chapters together and demonstrate a live run of roles from the main playbook.</span>
+                <span class="description">In this video, we will discuss the benefits of placing workloads in the most suitable infrastructure, introduce next use cases and propose next steps, such as: improving service delivery through self service and automation, adding software-defined storage to your infrastructure, and improving existing applications.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="9">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">8</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="1_4zxc3hxp" data-duration="452">
-                <span class="title expand">Overview of Ansible Tower (and demonstration)</span>
-
-                <span class="description">In this video, we will walk through the key features of Ansible Tower.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="10">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">8</span> mins</li>
+                    <li class="duration"><span class="time">4</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
@@ -190,7 +177,7 @@
           </ul>
 
           <ul class="bottomlinks">
-            <li class="survey"><a target="_blank" title="Survey opens in new tab or window" href="https://survey.ole.redhat.com/survey/?modality=tov&amp;course=do007">Course Evaluation</a></li>
+            <li class="survey"><a target="_blank" title="Survey opens in new tab or window" href="https://survey.ole.redhat.com/survey/?modality=tov&amp;course=rh018">Course Evaluation</a></li>
           </ul>
 
         </div>
