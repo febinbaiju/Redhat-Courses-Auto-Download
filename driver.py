@@ -21,5 +21,6 @@ def fetch_and_download_raw(_id):
     pyautogui.click(x=1200, y=153, clicks=1)
     time.sleep(3)
     pyautogui.click(x=1183, y=423, clicks=1)  # downloading the file
-    # driver.close()
+    input()
+    driver.close()
 
