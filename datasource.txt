@@ -1,8 +1,8 @@
 <aside id="navigation" style="display: block;">
         <div class="c100 small" id="totalProgress">
-          <span>2%</span>
+          <span>0%</span>
           <div class="slice">
-            <div class="bar" id="rbar" style="transform: rotate(7.2deg);"></div>
+            <div class="bar" id="rbar" style="transform: rotate(0deg);"></div>
             <div class="fill"></div>
           </div>
         </div>
@@ -10,10 +10,10 @@
           <a class="hidemenu"><span>Hide Pane</span></a>
           <p class="hover"><span>Click here to hide the navigation pane</span></p>
         </div>
-        <h2 class="expand">
-            Red Hat Enterprise Linux Technical Overview
+        <h2>
+            Ansible Essentials: Simplicity in Automation Technical Overview (DO007)
         </h2>
-        <span class="description">Red Hat Enterprise Linux Technical Overview (RH024) is a series of no-cost, on-demand, online videos that provide a technical introduction to Linux® for IT professionals. </span>
+
         <!--
         <ul class='inlinemenu'>
           <li class='active' rel='overview'>Overview</li>
@@ -33,125 +33,55 @@
           <h3 class="active">Content</h3>
           <ul>
 
-            <li id="0_6863hqz2" data-duration="229" class="active">
-                <span class="title expand">What is Linux, Open Source Software, and a Distrbution?</span>
+            <li id="1_kqcm0fme" data-duration="98" class="active">
+                <span class="title expand">Ansible Essentials Introduction</span>
 
-                <span class="description">In this video, we will discuss why Linux is important, what Open Source Software is, and how distrobutions, such as Red Hat Enterprise Linux, work.</span>
+                <span class="description">In this video, we will review the contents of this set of videos.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="0">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">4</span> mins</li>
-                    <li class="progress playing"><span class="val">3</span>%</li>
+                    <li class="duration"><span class="time">2</span> mins</li>
+                    <li class="progress playing"><span class="val">48</span>%</li>
                 </ul>
             </li>
 
-            <li id="0_mp1s02d7" data-duration="482">
-                <span class="title expand">Introduction to the Shell</span>
+            <li id="1_dkaymths" data-duration="353">
+                <span class="title expand">What is Ansible and the Ansible Way</span>
 
-                <span class="description">In this video, we will discuss why Linux is important, what Open Source Software is, and how distrobutions, such as Red Hat Enterprise Linux, work.</span>
+                <span class="description">In this video, we will discuss Ansible at a high level and what differentiates it from other tools.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="1">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">9</span> mins</li>
-                    <li class="progress"><span class="val">1</span>%</li>
+                    <li class="duration"><span class="time">6</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="0_ohtf7fo0" data-duration="255">
-                <span class="title expand">Kernel and User Spaces</span>
+            <li id="1_svvp9o64" data-duration="281">
+                <span class="title expand">How Ansible Works</span>
 
-                <span class="description">In this video, we will discuss the purpose of the Linux kernel and userspace, and how to get information about and terminate running processes. </span>
+                <span class="description">In this video, we will walk through the Ansible automation engine by discussing each of its key components.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="2">Play</button>
                 </span>
                 <ul class="info">
                     <li class="duration"><span class="time">5</span> mins</li>
-                    <li class="progress"><span class="val">1</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_ycb36ga1" data-duration="317">
-                <span class="title expand">Orientation to the Graphical User Interface</span>
-
-                <span class="description">In this video, we will discuss how the optional graphical user interface works and learn the basics of how to use the default GNOME 3 desktop environment</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="3">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">6</span> mins</li>
-                    <li class="progress"><span class="val">18</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_2vnp5ffy" data-duration="575">
-                <span class="title expand">File Management in Linux </span>
-
-                <span class="description">In this video, we will learn about why files are particularly important in Linux, how the operating system classifies files, how files are named on native file systems, and how applications differentiate types of data in regular files.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="4">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">10</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
 
-            <li id="0_7a8jv5f5" data-duration="333">
-                <span class="title expand">The File System Hierarchy</span>
+            <li id="1_5e1lfl43" data-duration="637">
+                <span class="title expand">Ad-Hoc Commands (and demonstration)</span>
 
-                <span class="description">In this video, we will learn about the Linux file system hierarchy: how directories are structured on the system, what data they contain, how data on different disks is accessed, and basic file management commands.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="5">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">6</span> mins</li>
-                    <li class="progress"><span class="val">4</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_738nitmv" data-duration="414">
-                <span class="title expand">Editing Files Using ViM</span>
-
-                <span class="description">In this video, we will quickly learn the basics of vim, a text editor which can be used from the terminal, and why it is an important tool for system administrators.</span>
+                <span class="description">In this video, we will examine common Ad-Hoc use cases and demonstrate those against a host in inventory.</span>
 
                 <span class="button-wrap">
-                    <button data-action="playVideo" data-index="6">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">7</span> mins</li>
-                    <li class="progress"><span class="val">2</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_weakasjq" data-duration="510">
-                <span class="title expand">Organizing Users and Groups</span>
-
-                <span class="description">In this video, we will investigate how users and user groups work in Linux, how user accounts are used, what the "superuser" is and how to become superuser, and see one way to add users to the system.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="7">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">9</span> mins</li>
-                    <li class="progress"><span class="val">10</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_xk7m88pn" data-duration="603">
-                <span class="title expand">File Permissions</span>
-
-                <span class="description">In this video, we will discuss how file permissions are used to control access to user data, and how to interpret and manage them.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="8">Play</button>
+                    <button data-action="playVideo" data-index="3">Play</button>
                 </span>
                 <ul class="info">
                     <li class="duration"><span class="time">11</span> mins</li>
@@ -159,13 +89,69 @@
                 </ul>
             </li>
 
-            <li id="0_dxjvtnh4" data-duration="575">
-                <span class="title expand">Managing Software</span>
+            <li id="1_tx0g4esk" data-duration="1081">
+                <span class="title expand">Introduction to Playbooks (and demonstration)</span>
 
-                <span class="description">In this video, we will see how software packages are managed in Red Hat Enterprise Linux and how they are distributed to systems.</span>
+                <span class="description">In this video, we will discuss key playbook concepts and build upon our Ad-Hoc demonstration by creating a basic playbook.</span>
 
                 <span class="button-wrap">
-                    <button data-action="playVideo" data-index="9">Play</button>
+                    <button data-action="playVideo" data-index="4">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">19</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="1_ksjln2gp" data-duration="257">
+                <span class="title expand">Introduction to Roles (and demonstration)</span>
+
+                <span class="description">In this video, we will introduce the Ansible concept of roles.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="5">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">5</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="1_qz10z11r" data-duration="186">
+                <span class="title expand">Creating the Roles Structure with Ansible-Galaxy (and demonstration)</span>
+
+                <span class="description">In this video, we will utilize the ansible-galaxy command-line options to create our role structure.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="6">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">4</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="1_so38zmmm" data-duration="864">
+                <span class="title expand">Breaking an Existing Playbook into a Role (and demonstration)</span>
+
+                <span class="description">In this video, we will utilize the playbook created in the Introduction to Playbooks chapter and move each component into the corresponding role structure.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="7">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">15</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="1_chah2mz8" data-duration="549">
+                <span class="title expand">Creating a New Role (and demonstration)</span>
+
+                <span class="description">In this video, we will use the same techniques in creating a new role as we did with the existing playbook.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="8">Play</button>
                 </span>
                 <ul class="info">
                     <li class="duration"><span class="time">10</span> mins</li>
@@ -173,72 +159,30 @@
                 </ul>
             </li>
 
-            <li id="0_jwva14py" data-duration="688">
-                <span class="title expand">Configuring Networking</span>
+            <li id="1_ua2ad065" data-duration="446">
+                <span class="title expand">Utilizing Roles in your Main Playbooks (and demonstration)</span>
 
-                <span class="description">In this video, we will introduce basic tools and techniques to manage networking settings from the Linux command line.</span>
+                <span class="description">In this video, we will bring the role chapters together and demonstrate a live run of roles from the main playbook.</span>
+
+                <span class="button-wrap">
+                    <button data-action="playVideo" data-index="9">Play</button>
+                </span>
+                <ul class="info">
+                    <li class="duration"><span class="time">8</span> mins</li>
+                    <li class="progress notplayed"><span class="val">0</span>%</li>
+                </ul>
+            </li>
+
+            <li id="1_4zxc3hxp" data-duration="452">
+                <span class="title expand">Overview of Ansible Tower (and demonstration)</span>
+
+                <span class="description">In this video, we will walk through the key features of Ansible Tower.</span>
 
                 <span class="button-wrap">
                     <button data-action="playVideo" data-index="10">Play</button>
                 </span>
                 <ul class="info">
-                    <li class="duration"><span class="time">12</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_f36cg8nt" data-duration="409">
-                <span class="title expand">Controlling System Startup Processes</span>
-
-                <span class="description">In this video, we will discuss how programs are started at boot time in Linux, and learn how to use systemd with Systemctl in Red Hat Enterprise Linux 8 to control system daemons.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="11">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">7</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_8o0bklrb" data-duration="239">
-                <span class="title expand">Introduction to Containers</span>
-
-                <span class="description">In this video, we will take an introductory look at container and learn the basics of how they work in Red Hat Enterprise Linux 8.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="12">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">4</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_v1w1d94k" data-duration="362">
-                <span class="title expand">Overview of Cockpit</span>
-
-                <span class="description">In this video, we will look at the Cockpit Web Interface in Red Hat Enterprise Linux 8.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="13">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">7</span> mins</li>
-                    <li class="progress notplayed"><span class="val">0</span>%</li>
-                </ul>
-            </li>
-
-            <li id="0_df2j6dtd" data-duration="192">
-                <span class="title expand">Learning More about Red Hat Enterprise Linux 8</span>
-
-                <span class="description">In this video, we will look at some of the resources available to help you learn more about Linux.</span>
-
-                <span class="button-wrap">
-                    <button data-action="playVideo" data-index="14">Play</button>
-                </span>
-                <ul class="info">
-                    <li class="duration"><span class="time">4</span> mins</li>
+                    <li class="duration"><span class="time">8</span> mins</li>
                     <li class="progress notplayed"><span class="val">0</span>%</li>
                 </ul>
             </li>
@@ -246,7 +190,7 @@
           </ul>
 
           <ul class="bottomlinks">
-            <li class="survey"><a target="_blank" title="Survey opens in new tab or window" href="https://survey.ole.redhat.com/survey/?modality=tov&amp;course=rh024">Course Evaluation</a></li>
+            <li class="survey"><a target="_blank" title="Survey opens in new tab or window" href="https://survey.ole.redhat.com/survey/?modality=tov&amp;course=do007">Course Evaluation</a></li>
           </ul>
 
         </div>
