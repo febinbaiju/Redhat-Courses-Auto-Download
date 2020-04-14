@@ -19,7 +19,7 @@ for element in find_li:
     if element and counter <= limit:
         _id = str(element.get('id'))
         title_find = element.find('span')
-        _title = str(title_find.text)
+        _title = str(counter)+" "+str(title_find.text)
         fetch_and_download_raw(_id, _title)
         print(_id)
         print(_title)

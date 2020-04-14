@@ -18,7 +18,10 @@ def fetch_and_download_raw(_id, _filename):
     time.sleep(8)  # we need a delay before we can click the extension
     pyautogui.click(x=1266, y=49, clicks=1)
     time.sleep(3)
-    pyautogui.click(x=1200, y=153, clicks=1)
+    arrows1 = pyautogui.locateAllOnScreen("./arrow.png")
+    for arrow1 in arrows1:
+        print(arrow1[0], arrow1[1])
+    pyautogui.click(x=arrow1[0], y=arrow1[1], clicks=1, interval=0.0, button="left")
     time.sleep(3)
     arrows = pyautogui.locateAllOnScreen("./arrow.png")
     for arrow in arrows:
