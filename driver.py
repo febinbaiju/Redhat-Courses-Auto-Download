@@ -20,7 +20,10 @@ def fetch_and_download_raw(_id, _filename):
     time.sleep(3)
     pyautogui.click(x=1200, y=153, clicks=1)
     time.sleep(3)
-    pyautogui.click(x=1183, y=423, clicks=1)  # downloading the file
+    arrows = pyautogui.locateAllOnScreen("./arrow.png")
+    for arrow in arrows:
+        print(arrow[0], arrow[1])
+    pyautogui.click(x=arrow[0], y=arrow[1], clicks=1, interval=0.0, button="left")  # downloading the file
     from watch_file import watch_completion
     watch_completion(_filename)
     driver.close()
